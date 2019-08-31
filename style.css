@@ -25,6 +25,17 @@ body {
   float: right;
 }
 
+.card h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+ .card article p {
+  font-size: 1.5em;
+  padding-left: 0.75em;
+  color: wheat;
+ }
+
  /* Header and Footer Styles */
 .card header {
  background-image: linear-gradient(to top,rgba(0,0,0,0.1), rgba(0,0,0,0));
@@ -39,6 +50,11 @@ body {
 .card header, footer {
   height: 3em;
   padding: 1em;
+}
+
+.card footer p {
+  font-size: 1.5em;
+  line-height: 2em;
 }
 
  /* Card Container Styles */
